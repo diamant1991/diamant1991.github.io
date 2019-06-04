@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="/css/main.css?v=1559412992869">
+	</head>
+	<body>
+		<div class="site-container">
+			<header class="header">
+				<div class="header__container container">
+					<button class="header__burger svg-icon for-mobile" type="button">
+						<svg>
+							<use xlink:href="/images/sprites.svg#burger"></use>
+						</svg>
+					</button><a class="header__logo" href="#"><img src="images/logo.svg" alt=""></a>
+					<ul class="header__nav for-desktop">
+						<li><a class="header__item-nav" href="#">Автомобили</a></li>
+						<li><a class="header__item-nav" href="#">Спецпредложения</a></li>
+						<li><a class="header__item-nav" href="#">Новости</a></li>
+						<li><a class="header__item-nav" href="#">О компании</a></li>
+						<li><a class="header__item-nav" href="#">Отзывы</a></li>
+						<li><a class="header__item-nav" href="#">Контакты</a></li>
+					</ul><a class="header__phone" href="tel:+380978886628">
+						<div class="header__icon-phone svg-icon">
+							<svg>
+								<use xlink:href="/images/sprites.svg#phone"></use>
+							</svg>
+						</div>
+						<div class="header__number-phone for-desktop">+38 097 888 66 28</div></a>
+					<div class="header__lang for-desktop"><a class="header__button-lang is-current" href="#">ru</a><a class="header__button-lang" href="#">en</a></div>
+				</div>
+			</header>
+			<div class="mobile-panel is-hidden">
+				<div class="mobile-panel__header">
+					<button class="mobile-panel__back svg-icon" type="button">
+						<svg>
+							<use xlink:href="/images/sprites.svg#back-arrow"></use>
+						</svg>
+					</button><a class="mobile-panel__phone" href="tel:+380978886628">
+						<div class="mobile-panel__icon-phone svg-icon">
+							<svg>
+								<use xlink:href="/images/sprites.svg#phone"></use>
+							</svg>
+						</div>
+						<div class="mobile-panel__number-phone">+38 097 888 66 28</div></a>
+				</div>
+				<ul class="mobile-panel__nav">
+					<li><a class="mobile-panel__item-nav" href="#cars">Автомобили</a></li>
+					<li><a class="mobile-panel__item-nav" href="#offers">Спецпредложения</a></li>
+					<li><a class="mobile-panel__item-nav" href="#news">Новости</a></li>
+					<li><a class="mobile-panel__item-nav" href="#about">О компании</a></li>
+					<li><a class="mobile-panel__item-nav" href="#reviews">Отзывы</a></li>
+					<li><a class="mobile-panel__item-nav" href="#contacts">Контакты</a></li>
+				</ul>
+				<div class="mobile-panel__lang"><a class="mobile-panel__item-lang" href="#">en</a><a class="mobile-panel__item-lang is-current" href="#">ru</a></div>
+			</div>
+			<div class="page home">
+				<div class="home__top">
+					<div class="container home__container-top">
+						<div class="home__img-top"></div>
+						<div class="home__form-top">
+							<form action="">
+								<h2 class="home__title-form">Заказать авто</h2>
+								<div class="form-group">
+									<div class="form-label form-label--flex">
+										<div class="form-label__title">Получение</div><a class="form-label__link" href="#">условия проката</a>
+									</div>
+									<div class="form-select">
+										<div class="select-item">
+											<div class="select-item__button">Киев, Офис, ул. Сковороды, 21/26</div>
+											<div class="select-item__dropdown is-hidden">
+												<button class="select-item__button-dropdown" type="button">Киев, Офис, ул. Сковороды, 21/26</button>
+												<button class="select-item__button-dropdown" type="button">Киев, Офис, ул. Сковороды, 30</button>
+												<button class="select-item__button-dropdown" type="button">Киев, Офис, ул. Сковороды, 35</button>
+											</div>
+											<input type="text" hidden value="Киев, Офис, ул. Сковороды, 21/26">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="form-label">
+										<div class="form-label__title">Подача авто</div>
+									</div>
+									<div class="select-group">
+										<div class="form-select form-datepicker form-select--1-2">
+											<input class="datepicker" id="date1" type="text">
+											<label for="date1"></label>
+										</div>
+										<div class="form-select form-select--1-2">
+											<div class="select-item">
+												<div class="select-item__button">09:00</div>
+												<div class="select-item__dropdown select-item__dropdown--time is-hidden">
+													<button class="select-item__button-dropdown" type="button">00:00</button>
+													<button class="select-item__button-dropdown" type="button">01:00</button>
+													<button class="select-item__button-dropdown" type="button">02:00</button>
+													<button class="select-item__button-dropdown" type="button">03:00</button>
+													<button class="select-item__button-dropdown" type="button">04:00</button>
+													<button class="select-item__button-dropdown" type="button">05:00</button>
+													<button class="select-item__button-dropdown" type="button">06:00</button>
+													<button class="select-item__button-dropdown" type="button">07:00</button>
+													<button class="select-item__button-dropdown" type="button">08:00</button>
+													<button class="select-item__button-dropdown" type="button">09:00</button>
+													<button class="select-item__button-dropdown" type="button">10:00</button>
+													<button class="select-item__button-dropdown" type="button">11:00</button>
+													<button class="select-item__button-dropdown" type="button">12:00</button>
+													<button class="select-item__button-dropdown is-yellow" type="button">13:00</button>
+													<button class="select-item__button-dropdown" type="button">14:00</button>
+													<button class="select-item__button-dropdown" type="button">15:00</button>
+													<button class="select-item__button-dropdown" type="button">16:00</button>
+													<button class="select-item__button-dropdown" type="button">17:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">18:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">19:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">20:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">21:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">22:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">23:00</button>
+												</div>
+												<input type="text" hidden value="09:00">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="form-label">
+										<div class="form-label__title">Возврат АВТО</div>
+									</div>
+									<div class="select-group">
+										<div class="form-select form-datepicker form-select--1-2">
+											<input class="datepicker" id="date2" type="text">
+											<label for="date2"></label>
+										</div>
+										<div class="form-select form-select--1-2">
+											<div class="select-item">
+												<div class="select-item__button">09:00</div>
+												<div class="select-item__dropdown select-item__dropdown--time is-hidden">
+													<button class="select-item__button-dropdown" type="button">00:00</button>
+													<button class="select-item__button-dropdown" type="button">01:00</button>
+													<button class="select-item__button-dropdown" type="button">02:00</button>
+													<button class="select-item__button-dropdown" type="button">03:00</button>
+													<button class="select-item__button-dropdown" type="button">04:00</button>
+													<button class="select-item__button-dropdown" type="button">05:00</button>
+													<button class="select-item__button-dropdown" type="button">06:00</button>
+													<button class="select-item__button-dropdown" type="button">07:00</button>
+													<button class="select-item__button-dropdown" type="button">08:00</button>
+													<button class="select-item__button-dropdown" type="button">09:00</button>
+													<button class="select-item__button-dropdown" type="button">10:00</button>
+													<button class="select-item__button-dropdown" type="button">11:00</button>
+													<button class="select-item__button-dropdown" type="button">12:00</button>
+													<button class="select-item__button-dropdown is-yellow" type="button">13:00</button>
+													<button class="select-item__button-dropdown" type="button">14:00</button>
+													<button class="select-item__button-dropdown" type="button">15:00</button>
+													<button class="select-item__button-dropdown" type="button">16:00</button>
+													<button class="select-item__button-dropdown" type="button">17:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">18:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">19:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">20:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">21:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">22:00</button>
+													<button class="select-item__button-dropdown is-red" type="button">23:00</button>
+												</div>
+												<input type="text" hidden value="09:00">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group form-group--submit-home-top">
+									<button class="button button--form button--red" type="submit">Поиск</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="home__models" id="cars">
+					<div class="container">
+						<div class="home__text-models">
+							<h2 class="home__title-models">Наши автомобили</h2><a class="button button--red" href="#">все модели</a>
+						</div>
+					</div>
+				</div>
+				<div class="home__offer" id="offers">
+					<div class="container">
+						<h2 class="home__title-offer text-center">Спецпредложения</h2>
+						<div class="home__item-offer">
+							<div class="home__img-offer" style="background-image:url('images/main/offer1.jpg')"></div>
+							<div class="home__descr-offer">В Новый Год на новом<br> Touareg!</div>
+						</div>
+						<div class="slider-block home__slider-offer">
+							<div class="home__item-offer">
+								<div class="home__img-offer" style="background-image:url('images/main/offer2.jpg')"></div>
+								<div class="home__descr-offer">Новинка автопарка<br> Toyota Camry</div>
+							</div>
+							<div class="home__item-offer">
+								<div class="home__img-offer" style="background-image:url('images/main/offer2.jpg')"></div>
+								<div class="home__descr-offer">Новинка автопарка<br> Toyota Camry</div>
+							</div>
+							<div class="home__item-offer">
+								<div class="home__img-offer" style="background-image:url('images/main/offer2.jpg')"></div>
+								<div class="home__descr-offer">Новинка автопарка<br> Toyota Camry</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="home__news" id="news">
+					<div class="container">
+						<h2 class="home__title-news text-center">Новости из мира авто</h2>
+						<div class="slider-block home__slider-news">
+							<div class="home__item-news">
+								<div class="home__img-news"><img src="images/main/home-news.jpg" alt=""></div>
+								<div class="home__date-news">12.02.2018</div>
+								<div class="home__name-news">Уже в пути: в cеть попали фото «Теслы» –<br> Model 3</div>
+							</div>
+							<div class="home__item-news">
+								<div class="home__img-news"><img src="images/main/home-news.jpg" alt=""></div>
+								<div class="home__date-news">12.02.2018</div>
+								<div class="home__name-news">Уже в пути: в cеть попали фото «Теслы» –<br> Model 3</div>
+							</div>
+							<div class="home__item-news">
+								<div class="home__img-news"><img src="images/main/home-news.jpg" alt=""></div>
+								<div class="home__date-news">12.02.2018</div>
+								<div class="home__name-news">Уже в пути: в cеть попали фото «Теслы» –<br> Model 3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="home__about" id="about">
+					<div class="container home__container-about">
+						<h3 class="home__title-about text-center">О компании</h3>
+						<p>Сar2Drive – прокат автомобилей в городе Киеве без переплат! Независимо от цели и дальности поездки Вы получаете максимально выгодные условия проката! Новые автомобили с автоматической КПП. Прокат автомобилей от одних суток! Все что нужно, это выбрать даты проката и автомобиль. Наш менеджер свяжется с вами и предоставит автомобиль в удобном для вас месте.</p>
+					</div>
+				</div>
+				<div class="home__advantages">
+					<div class="container home__container-advantages">
+						<h3 class="home__title-advantages text-center">Преимущества</h3>
+						<div class="home__item-advantages">
+							<div class="home__img-advantages"><img src="images/main/adv1.png" alt=""></div>
+							<div class="home__text-advantages">Все автомобили только с автоматической КП</div>
+						</div>
+						<div class="home__item-advantages">
+							<div class="home__img-advantages"><img src="images/main/adv2.png" alt=""></div>
+							<div class="home__text-advantages">Получить/вернуть автомобиль можно в любом удобном месте</div>
+						</div>
+						<div class="home__item-advantages">
+							<div class="home__img-advantages"><img src="images/main/adv3.png" alt=""></div>
+							<div class="home__text-advantages">Нет необходимости возвращать автомобиль с полным баком</div>
+						</div>
+						<div class="home__item-advantages">
+							<div class="home__img-advantages"><img src="images/main/adv4.png" alt=""></div>
+							<div class="home__text-advantages">GPS и детское кресло предоставляются бесплатно</div>
+						</div>
+						<div class="home__item-advantages">
+							<div class="home__img-advantages"><img src="images/main/adv5.png" alt=""></div>
+							<div class="home__text-advantages">Вы платите не за время,<br> а за километры</div>
+						</div>
+					</div>
+				</div>
+				<div class="home__review" id="reviews">
+					<div class="container home__container-review">
+						<h3 class="home__title-review text-center">Отзывы</h3>
+						<div class="slider-block home__slider-review">
+							<div class="home__item-review"><img src="images/main/review.jpg" alt=""></div>
+							<div class="home__item-review"><img src="images/main/review.jpg" alt=""></div>
+							<div class="home__item-review"><img src="images/main/review.jpg" alt=""></div>
+							<div class="home__item-review"><img src="images/main/review.jpg" alt=""></div>
+						</div>
+					</div>
+				</div>
+				<div class="home__contacts" id="contacts">
+					<div class="container">
+						<h3 class="home__title-contacts text-center">Контакты</h3>
+						<div class="home__map-contacts"></div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__top">
+						<div class="footer__copyright">© CAR2DRIVE 2019</div>
+						<div class="footer__privacy"><a href="#">Политика конфиденциальности</a></div>
+					</div>
+					<div class="footer__develop">
+						<div class="footer__text-develop">Разработано в</div><a class="footer__icon-develop" href="#"><img src="images/turumburum.svg" alt=""></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="/js/vendor/jquery/jquery-3.4.1.js"></script>
+		<script src="/js/vendor/jquery-datepicker/jquery-ui.min.js"></script>
+		<script src="/js/vendor/jquery-datepicker/datepicker-ru.js"></script>
+		<script src="/js/vendor/gsap/TweenMax.min.js"></script>
+		<script src="/js/vendor/slick/slick.min.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>
